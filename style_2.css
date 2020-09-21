@@ -1,0 +1,88 @@
+* {
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+.bs{
+    border:1px solid blue;
+}
+.navigation{
+    background-color: rgb(41, 40, 40);
+    display:flex;
+    flex-flow: row wrap;
+}
+.navigation a{
+    display:block;
+    color:white;
+    text-decoration: none;
+    font:20px Arial,sans-serif;
+    padding:20px 40px;
+}
+.navigation a:hover{
+    background-color:rgba(255, 0, 0, 0.76);
+}
+.specialRed{
+    background-color:rgba(255, 0, 0, 0.76);
+    display: none;
+}
+.navigation li{
+    list-style: none;
+}
+.home__dropdown{
+    position: relative;
+}
+.home__dropout{
+    background-color:rgb(214, 214, 214);
+    position: absolute;
+    top:100%;
+    left:0px;
+    display:none;
+}
+.home__dropout li{
+    border-bottom:1px solid black;
+}
+.home__dropout li a{
+    white-space: nowrap;
+}
+.underHome4__dropdown{
+    position: relative;
+}
+
+.underHome4__dropout{
+    background-color:rgb(214, 214, 214);
+    position: absolute;
+    left:100%;
+    top:0px;
+    display: none;
+}
+.dropdown{
+    position: relative;
+}
+.dropout{
+    background-color:rgb(214, 214, 214);
+    position: absolute;
+    top:100%;
+    left:0px;
+    /* display:none; */
+    opacity:0;
+    transition:all .3s ease-in-out 0s;
+}
+.dropout li a{
+    white-space: nowrap;
+}
+.dropout li{
+    border-bottom:1px solid black;
+}
+.dropout-lv2{
+    background-color:rgb(214, 214, 214);
+    position: absolute;
+    left:100%;
+    top:0px;
+    /* display: none; */
+    opacity:0;
+}
+.somebox{
+    width:100%;
+    min-height: 300px;
+    background-color: indianred;
+}
